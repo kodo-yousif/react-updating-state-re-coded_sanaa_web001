@@ -17,7 +17,7 @@ export default class LightSwitch extends React.Component {
     })
   }
 
-  render() {a
+  render() {
     return (
       <div>
         <button onClick={this.handleClick}>{this.state.toggled ? "ON" : "OFF"}</button>
